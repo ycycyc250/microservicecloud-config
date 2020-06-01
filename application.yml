@@ -1,14 +1,21 @@
-﻿spring:
+spring:
     profiles:
-        active:
-        - dev      
+        active: dev      
 ---
 spring:
+<<<<<<< HEAD
     proflies: dev #开发环境
+=======
+    profiles: dev #开发环境
+>>>>>>> 5c0b5e26a86953bb50d6c9097617619b1ce5a404
     application:
         name: microservicecloud-config-atguigu-dev
 ---
 spring:
+<<<<<<< HEAD
     proflies: test #测试环境
+=======
+    profiles: test #测试环境
+>>>>>>> 5c0b5e26a86953bb50d6c9097617619b1ce5a404
     application:
         name: microservicecloud-config-atguigu-test
