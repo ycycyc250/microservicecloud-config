@@ -1,14 +1,13 @@
-﻿spring:
+spring:
     profiles:
-        active:
-        - dev      
+        active: dev      
 ---
 spring:
-    proflies: dev #开发环境
+    profiles: dev #开发环境
     application:
         name: microservicecloud-config-atguigu-dev
 ---
 spring:
-    proflies: test #测试环境
+    profiles: test #测试环境
     application:
         name: microservicecloud-config-atguigu-test
